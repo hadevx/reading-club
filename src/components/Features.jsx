@@ -127,7 +127,7 @@ const Features = () => (
       </BentoTilt>
 
       {/* Grid of cards */}
-      <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
+      <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 auto-rows-min">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             gradient={gradients.blueGreen}
@@ -141,7 +141,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
           <BentoCard
             gradient={gradients.orangeYellow}
             title={
@@ -154,7 +154,7 @@ const Features = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1">
           <BentoCard
             gradient={gradients.violetIndigo}
             title={
@@ -168,7 +168,7 @@ const Features = () => (
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">
-          <div className="flex size-full flex-col justify-between bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 p-5">
+          <div className="flex w-full flex-col justify-between bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 p-5">
             <h1 className="bento-title special-font max-w-64 text-white">
               M<b>o</b>re events <b>c</b>oming s<b>o</b>on.
             </h1>
